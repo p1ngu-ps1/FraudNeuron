@@ -227,6 +227,10 @@
           "id": "P5113",
           "title": "personal_identity_impersonation",
           "description": "Impersonating a person known to the target or a public figure to deceive and manipulate."
+        }, {
+          "id": "P5114",
+          "title": "real_time_synthetic_media",
+          "description": "Using deepfake avatars in live video interactions to deceive and manipulate targets."
         }
         ]
       }, {
@@ -288,6 +292,10 @@
             "id": "P6123",
             "title": "social_pressure",
             "description": "Manipulating through peer pressure and shame"
+          }, {
+            "id": "P6124",
+            "title": "trusted_authority_abuse",
+            "description": "Exploiting implicit trust in authoritative roles (e.g., CEO, CFO) to influence decisions without suspicion."
           }]
         }]
       }]
@@ -348,7 +356,7 @@
           "description": "Exposing sensitive information"
         }, {
           "id": "P8113",
-          "title": "service_disruption",
+          "title": "operational_disruption",
           "description": "Disrupting business operations"
         }]
       }, {
