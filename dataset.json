@@ -3,372 +3,526 @@
     "id": "T0000",
     "title": "tactics",
     "description": "Methods and techniques used to execute fraudulent operations",
-    "items": [{
-      "id": "T1000",
-      "title": "target_identification",
-      "description": "Identifying and selecting specific targets for fraudulent activities",
-      "items": [{
-        "id": "TQ1100",
-        "title": "target_types",
-        "description": "Categorizing and prioritizing different types of targets for fraud schemes",
-        "items": [{
-          "id": "TQ1110",
-          "title": "individual_targets",
-          "description": "Targeting natural persons for fraudulent schemes",
-          "items": [{
-            "id": "P1111",
-            "title": "consumers",
-            "description": "Targeting individual customers"
-          }, {
-            "id": "P1112",
-            "title": "employees",
-            "description": "Exploiting workers within organizations for fraudulent purposes"
-          }, {
-            "id": "P1113",
-            "title": "high_value_individuals",
-            "description": "Targeting wealthy individuals and executives for high-value fraud"
-          }]
-        }, {
-          "id": "TQ1120",
-          "title": "corporate_targets",
-          "description": "Targeting business entities for fraudulent operations",
-          "items": [{
-            "id": "P1121",
-            "title": "small_business",
-            "description": "Exploiting vulnerabilities in small and medium enterprises"
-          }, {
-            "id": "P1122",
-            "title": "large_corporations",
-            "description": "Conducting sophisticated attacks against major corporate entities"
-          }, {
-            "id": "P1123",
-            "title": "financial_institutions",
-            "description": "Infiltrating banks and financial service providers"
-          }]
-        }]
-      }]
-    }, {
-      "id": "T2000",
-      "title": "themes",
-      "description": "Deploying various narrative themes to execute fraud",
-      "items": [{
-        "id": "TQ2100",
-        "title": "financial_offers",
-        "description": "Using money-related schemes to lure targets",
-        "items": [{
-          "id": "P2111",
-          "title": "credit_limit_increase",
-          "description": "Deceiving targets with false credit expansion promises"
-        }, {
-          "id": "P2112",
-          "title": "loans",
-          "description": "Luring victims with fake attractive loan terms"
-        }, {
-          "id": "P2113",
-          "title": "investment_opportunities",
-          "description": "Manipulating targets with fraudulent high-return investment schemes"
-        }]
-      }, {
-        "id": "TQ2200",
-        "title": "employment",
-        "description": "Exploiting job-related opportunities for fraud",
-        "items": [{
-          "id": "P2211",
-          "title": "job_offers",
-          "description": "Creating fake employment opportunities to deceive targets"
-        }, {
-          "id": "P2212",
-          "title": "work_from_home",
-          "description": "Operating fraudulent remote work schemes"
-        }, {
-          "id": "P2213",
-          "title": "recruitment_scams",
-          "description": "Running deceptive hiring processes"
-        }]
-      }]
-    }, {
-      "id": "T3000",
-      "title": "reconnaissance",
-      "description": "Gathering intelligence and researching potential targets",
-      "items": [{
-        "id": "TQ3100",
-        "title": "data_gathering",
-        "description": "Collecting target information through various channels",
-        "items": [{
-          "id": "TQ3110",
-          "title": "open_sources",
-          "description": "Extracting information open sources to gather target information",
-          "items": [{
-            "id": "P3111",
-            "title": "public_data",
-            "description": "Extracting information from indexed public records"
-          }, {
-            "id": "P3112",
-            "title": "domain_analysis",
-            "description": "Investigating website ownership and technical details"
-          }, {
-            "id": "P3113",
-            "title": "social_media_data",
-            "description": "Harvesting information from public social network profiles"
-          }]
-        }, {
-          "id": "TQ3120",
-          "title": "private_sources",
-          "description": "Accessing restricted information sources",
-          "items": [{
-            "id": "P3121",
-            "title": "breach_databases",
-            "description": "Exploiting data from security breaches"
-          }, {
-            "id": "P3122",
-            "title": "infostealer_logs",
-            "description": "Utilizing data from malware infections"
-          }, {
-            "id": "P3123",
-            "title": "third_party_data",
-            "description": "Purchasing information from illicit data brokers"
-          }]
-        }, {
-          "id": "TQ3130",
-          "title": "technical_collection",
-          "description": "Conducting technical reconnaissance",
-          "items": [{
-            "id": "P3131",
-            "title": "infrastructure_scanning",
-            "description": "Probing networks and systems for vulnerabilities"
-          }, {
-            "id": "P3132",
-            "title": "web_application_scanning",
-            "description": "Exploiting web application weaknesses"
-          }, {
-            "id": "P3133",
-            "title": "traffic_analysis",
-            "description": "Intercepting and analyzing network traffic"
-          }]
-        }]
-      }]
-    }, {
-      "id": "T4000",
-      "title": "resources",
-      "description": "Deploying infrastructure and tools for fraudulent operations",
-      "items": [{
-        "id": "TQ4100",
-        "title": "communication",
-        "description": "Setting up deceptive communication channels",
-        "items": [{
-          "id": "P4111",
-          "title": "disposable_email",
-          "description": "Creating temporary email addresses for fraud"
-        }, {
-          "id": "P4112",
-          "title": "disposable_phones",
-          "description": "Creating temporary phone numbers for fraud"
-        }, {
-          "id": "P4113",
-          "title": "social_accounts",
-          "description": "Operating fake social media profiles"
-        }]
-      }, {
-        "id": "TQ4200",
-        "title": "technical",
-        "description": "Deploying technical infrastructure for attacks",
-        "items": [{
-          "id": "P4211",
-          "title": "domain_registration",
-          "description": "Registering deceptive websites"
-        }, {
-          "id": "P4212",
-          "title": "server_infrastructure",
-          "description": "Setting up malicious computing resources"
-        }, {
-          "id": "P4213",
-          "title": "network_resources",
-          "description": "Establishing covert network infrastructure"
-        }, {
-          "id": "P4214",
-          "title": "crypto_wallets",
-          "description": "Creating cryptocurrency wallets for illicit transactions"
-        }]
-      }, {
-        "id": "TQ4300",
-        "title": "tools",
-        "description": "Utilizing specialized tools for fraud",
-        "items": [{
-          "id": "P4311",
-          "title": "ai_systems",
-          "description": "Leveraging AI tools to enhance fraud schemes"
-        }, {
-          "id": "P4312",
-          "title": "specialized_software",
-          "description": "Deploying custom fraud software"
-        }, {
-          "id": "P4313",
-          "title": "malware",
-          "description": "Distributing malicious software to compromise targets"
-        }]
-      }]
-    }, {
-      "id": "T5000",
-      "title": "identity_simulation",
-      "description": "Executing identity deception tactics",
-      "items": [{
-        "id": "TQ5100",
-        "title": "impersonation",
-        "description": "Performing direct impersonation",
-        "items": [{
-          "id": "P5111",
-          "title": "employee_impersonation",
-          "description": "Masquerading as legitimate employees"
-        }, {
-          "id": "P5112",
-          "title": "brand_impersonation",
-          "description": "Mimicking legitimate companies"
-        }, {
-          "id": "P5113",
-          "title": "personal_identity_impersonation",
-          "description": "Impersonating a person known to the target or a public figure to deceive and manipulate."
-        }
+    "items": [
+      {
+        "id": "T1000",
+        "title": "target_identification",
+        "description": "Identifying and selecting specific targets for fraudulent activities",
+        "items": [
+          {
+            "id": "TQ1100",
+            "title": "target_types",
+            "description": "Categorizing and prioritizing different types of targets for fraud schemes",
+            "items": [
+              {
+                "id": "TQ1110",
+                "title": "individual_targets",
+                "description": "Targeting natural persons for fraudulent schemes",
+                "items": [
+                  {
+                    "id": "P1111",
+                    "title": "consumers",
+                    "description": "Targeting individual customers"
+                  },
+                  {
+                    "id": "P1112",
+                    "title": "employees",
+                    "description": "Exploiting workers within organizations for fraudulent purposes"
+                  },
+                  {
+                    "id": "P1113",
+                    "title": "high_value_individuals",
+                    "description": "Targeting wealthy individuals and executives for high-value fraud"
+                  }
+                ]
+              },
+              {
+                "id": "TQ1120",
+                "title": "corporate_targets",
+                "description": "Targeting business entities for fraudulent operations",
+                "items": [
+                  {
+                    "id": "P1121",
+                    "title": "small_business",
+                    "description": "Exploiting vulnerabilities in small and medium enterprises"
+                  },
+                  {
+                    "id": "P1122",
+                    "title": "large_corporations",
+                    "description": "Conducting sophisticated attacks against major corporate entities"
+                  },
+                  {
+                    "id": "P1123",
+                    "title": "financial_institutions",
+                    "description": "Infiltrating banks and financial service providers"
+                  }
+                ]
+              }
+            ]
+          }
         ]
-      }, {
-        "id": "TQ5200",
-        "title": "technical_deception",
-        "description": "Implementing technical impersonation methods",
-        "items": [{
-          "id": "P5211",
-          "title": "domain_spoofing",
-          "description": "Creating convincing fake websites"
-        }, {
-          "id": "P5212",
-          "title": "app_cloning",
-          "description": "Replicating legitimate applications"
-        }, {
-          "id": "P5213",
-          "title": "channel_spoofing",
-          "description": "Faking legitimate communication channels"
-        }]
-      }]
-    }, {
-      "id": "T6000",
-      "title": "social_engineering",
-      "description": "Manipulating targets through psychological tactics",
-      "items": [{
-        "id": "TQ6100",
-        "title": "scenarios",
-        "description": "Executing common fraud scenarios",
-        "items": [{
-          "id": "TQ6110",
-          "title": "emotional",
-          "description": "Exploiting emotional vulnerabilities",
-          "items": [{
-            "id": "P6111",
-            "title": "romance_scams",
-            "description": "Manipulating victims through fake romantic relationships"
-          }, {
-            "id": "P6112",
-            "title": "crisis_scenarios",
-            "description": "Creating false emergency situations"
-          }, {
-            "id": "P6113",
-            "title": "help_requests",
-            "description": "Exploiting goodwill through false appeals for assistance"
-          }]
-        }, {
-          "id": "TQ6120",
-          "title": "pressure_tactics",
-          "description": "Applying coercive methods",
-          "items": [{
-            "id": "P6121",
-            "title": "time_pressure",
-            "description": "Creating false sense of urgency"
-          }, {
-            "id": "P6122",
-            "title": "intimidation",
-            "description": "Using threats and fear tactics"
-          }, {
-            "id": "P6123",
-            "title": "social_pressure",
-            "description": "Manipulating through peer pressure and shame"
-          }]
-        }]
-      }]
-    }, {
-      "id": "T7000",
-      "title": "conversion",
-      "description": "Extracting value from successful fraud",
-      "items": [{
-        "id": "TQ7100",
-        "title": "financial_extraction",
-        "description": "Converting fraud into financial gain",
-        "items": [{
-          "id": "P7111",
-          "title": "bank_transfers",
-          "description": "Executing fraudulent bank transfers"
-        }, {
-          "id": "P7112",
-          "title": "card_fraud",
-          "description": "Exploiting stolen payment card data"
-        }, {
-          "id": "P7113",
-          "title": "crypto_transactions",
-          "description": "Moving stolen funds through cryptocurrency"
-        }]
-      }, {
-        "id": "TQ7200",
-        "title": "data_extraction",
-        "description": "Stealing valuable information",
-        "items": [{
-          "id": "P7211",
-          "title": "credentials",
-          "description": "Harvesting account login details"
-        }, {
-          "id": "P7212",
-          "title": "sensitive_data",
-          "description": "Stealing confidential information"
-        }, {
-          "id": "P7213",
-          "title": "intellectual_property",
-          "description": "Extracting valuable business secrets"
-        }]
-      }]
-    }, {
-      "id": "T8000",
-      "title": "impacts",
-      "description": "Causing various types of damage through fraud",
-      "items": [{
-        "id": "TQ8100",
-        "title": "direct_impacts",
-        "description": "Inflicting immediate damage",
-        "items": [{
-          "id": "P8111",
-          "title": "monetary_loss",
-          "description": "Stealing funds directly from victims"
-        }, {
-          "id": "P8112",
-          "title": "data_compromise",
-          "description": "Exposing sensitive information"
-        }, {
-          "id": "P8113",
-          "title": "service_disruption",
-          "description": "Disrupting business operations"
-        }]
-      }, {
-        "id": "TQ8200",
-        "title": "indirect_impacts",
-        "description": "Causing secondary damage",
-        "items": [{
-          "id": "P8211",
-          "title": "reputational_damage",
-          "description": "Destroying brand trust and reputation"
-        }, {
-          "id": "P8212",
-          "title": "regulatory_consequences",
-          "description": "Triggering regulatory investigations and penalties"
-        }, {
-          "id": "P8213",
-          "title": "psychological_impact",
-          "description": "Inflicting emotional and psychological harm"
-        }]
-      }]
-    }]
+      },
+      {
+        "id": "T2000",
+        "title": "themes",
+        "description": "Deploying various narrative themes to execute fraud",
+        "items": [
+          {
+            "id": "TQ2100",
+            "title": "financial_offers",
+            "description": "Using money-related schemes to lure targets",
+            "items": [
+              {
+                "id": "P2111",
+                "title": "credit_limit_increase",
+                "description": "Deceiving targets with false credit expansion promises"
+              },
+              {
+                "id": "P2112",
+                "title": "loans",
+                "description": "Luring victims with fake attractive loan terms"
+              },
+              {
+                "id": "P2113",
+                "title": "investment_opportunities",
+                "description": "Manipulating targets with fraudulent high-return investment schemes"
+              }
+            ]
+          },
+          {
+            "id": "TQ2200",
+            "title": "employment",
+            "description": "Exploiting job-related opportunities for fraud",
+            "items": [
+              {
+                "id": "P2211",
+                "title": "job_offers",
+                "description": "Creating fake employment opportunities to deceive targets"
+              },
+              {
+                "id": "P2212",
+                "title": "work_from_home",
+                "description": "Operating fraudulent remote work schemes"
+              },
+              {
+                "id": "P2213",
+                "title": "recruitment_scams",
+                "description": "Running deceptive hiring processes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T3000",
+        "title": "reconnaissance",
+        "description": "Gathering intelligence and researching potential targets",
+        "items": [
+          {
+            "id": "TQ3100",
+            "title": "data_gathering",
+            "description": "Collecting target information through various channels",
+            "items": [
+              {
+                "id": "TQ3110",
+                "title": "open_sources",
+                "description": "Extracting information open sources to gather target information",
+                "items": [
+                  {
+                    "id": "P3111",
+                    "title": "public_data",
+                    "description": "Extracting information from indexed public records"
+                  },
+                  {
+                    "id": "P3112",
+                    "title": "domain_analysis",
+                    "description": "Investigating website ownership and technical details"
+                  },
+                  {
+                    "id": "P3113",
+                    "title": "social_media_data",
+                    "description": "Harvesting information from public social network profiles"
+                  }
+                ]
+              },
+              {
+                "id": "TQ3120",
+                "title": "private_sources",
+                "description": "Accessing restricted information sources",
+                "items": [
+                  {
+                    "id": "P3121",
+                    "title": "breach_databases",
+                    "description": "Exploiting data from security breaches"
+                  },
+                  {
+                    "id": "P3122",
+                    "title": "infostealer_logs",
+                    "description": "Utilizing data from malware infections"
+                  },
+                  {
+                    "id": "P3123",
+                    "title": "third_party_data",
+                    "description": "Purchasing information from illicit data brokers"
+                  }
+                ]
+              },
+              {
+                "id": "TQ3130",
+                "title": "technical_collection",
+                "description": "Conducting technical reconnaissance",
+                "items": [
+                  {
+                    "id": "P3131",
+                    "title": "infrastructure_scanning",
+                    "description": "Probing networks and systems for vulnerabilities"
+                  },
+                  {
+                    "id": "P3132",
+                    "title": "web_application_scanning",
+                    "description": "Exploiting web application weaknesses"
+                  },
+                  {
+                    "id": "P3133",
+                    "title": "traffic_analysis",
+                    "description": "Intercepting and analyzing network traffic"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T4000",
+        "title": "resources",
+        "description": "Deploying infrastructure and tools for fraudulent operations",
+        "items": [
+          {
+            "id": "TQ4100",
+            "title": "communication",
+            "description": "Setting up deceptive communication channels",
+            "items": [
+              {
+                "id": "P4111",
+                "title": "disposable_email",
+                "description": "Creating temporary email addresses for fraud"
+              },
+              {
+                "id": "P4112",
+                "title": "disposable_phones",
+                "description": "Creating temporary phone numbers for fraud"
+              },
+              {
+                "id": "P4113",
+                "title": "social_accounts",
+                "description": "Operating fake social media profiles"
+              }
+            ]
+          },
+          {
+            "id": "TQ4200",
+            "title": "technical",
+            "description": "Deploying technical infrastructure for attacks",
+            "items": [
+              {
+                "id": "P4211",
+                "title": "domain_registration",
+                "description": "Registering deceptive websites"
+              },
+              {
+                "id": "P4212",
+                "title": "server_infrastructure",
+                "description": "Setting up malicious computing resources"
+              },
+              {
+                "id": "P4213",
+                "title": "network_resources",
+                "description": "Establishing covert network infrastructure"
+              },
+              {
+                "id": "P4214",
+                "title": "crypto_wallets",
+                "description": "Creating cryptocurrency wallets for illicit transactions"
+              }
+            ]
+          },
+          {
+            "id": "TQ4300",
+            "title": "tools",
+            "description": "Utilizing specialized tools for fraud",
+            "items": [
+              {
+                "id": "P4311",
+                "title": "ai_systems",
+                "description": "Leveraging AI tools to enhance fraud schemes"
+              },
+              {
+                "id": "P4312",
+                "title": "specialized_software",
+                "description": "Deploying custom fraud software"
+              },
+              {
+                "id": "P4313",
+                "title": "malware",
+                "description": "Distributing malicious software to compromise targets"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T5000",
+        "title": "identity_simulation",
+        "description": "Executing identity deception tactics",
+        "items": [
+          {
+            "id": "TQ5100",
+            "title": "impersonation",
+            "description": "Performing direct impersonation",
+            "items": [
+              {
+                "id": "P5111",
+                "title": "employee_impersonation",
+                "description": "Masquerading as legitimate employees"
+              },
+              {
+                "id": "P5112",
+                "title": "brand_impersonation",
+                "description": "Mimicking legitimate companies"
+              },
+              {
+                "id": "P5113",
+                "title": "personal_identity_impersonation",
+                "description": "Impersonating a person known to the target or a public figure to deceive and manipulate."
+              },
+              {
+                "id": "P5114",
+                "title": "real_time_synthetic_media",
+                "description": "Using deepfake avatars in live video interactions to deceive and manipulate targets."
+              }
+            ]
+          },
+          {
+            "id": "TQ5200",
+            "title": "technical_deception",
+            "description": "Implementing technical impersonation methods",
+            "items": [
+              {
+                "id": "P5211",
+                "title": "domain_spoofing",
+                "description": "Creating convincing fake websites"
+              },
+              {
+                "id": "P5212",
+                "title": "app_cloning",
+                "description": "Replicating legitimate applications"
+              },
+              {
+                "id": "P5213",
+                "title": "channel_spoofing",
+                "description": "Faking legitimate communication channels"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T6000",
+        "title": "social_engineering",
+        "description": "Manipulating targets through psychological tactics",
+        "items": [
+          {
+            "id": "TQ6100",
+            "title": "scenarios",
+            "description": "Executing common fraud scenarios",
+            "items": [
+              {
+                "id": "TQ6110",
+                "title": "emotional",
+                "description": "Exploiting emotional vulnerabilities",
+                "items": [
+                  {
+                    "id": "P6111",
+                    "title": "romance_scams",
+                    "description": "Manipulating victims through fake romantic relationships"
+                  },
+                  {
+                    "id": "P6112",
+                    "title": "crisis_scenarios",
+                    "description": "Creating false emergency situations"
+                  },
+                  {
+                    "id": "P6113",
+                    "title": "help_requests",
+                    "description": "Exploiting goodwill through false appeals for assistance"
+                  }
+                ]
+              },
+              {
+                "id": "TQ6120",
+                "title": "pressure_tactics",
+                "description": "Applying coercive methods",
+                "items": [
+                  {
+                    "id": "P6121",
+                    "title": "time_pressure",
+                    "description": "Creating false sense of urgency"
+                  },
+                  {
+                    "id": "P6122",
+                    "title": "intimidation",
+                    "description": "Using threats and fear tactics"
+                  },
+                  {
+                    "id": "P6123",
+                    "title": "social_pressure",
+                    "description": "Manipulating through peer pressure and shame"
+                  },
+                  {
+                    "id": "P6124",
+                    "title": "trusted_authority_abuse",
+                    "description": "Exploiting implicit trust in authoritative roles (e.g., CEO, CFO) to influence decisions without suspicion."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T7000",
+        "title": "conversion",
+        "description": "Extracting value from successful fraud",
+        "items": [
+          {
+            "id": "TQ7100",
+            "title": "financial_extraction",
+            "description": "Converting fraud into financial gain",
+            "items": [
+              {
+                "id": "P7111",
+                "title": "bank_transfers",
+                "description": "Executing fraudulent bank transfers"
+              },
+              {
+                "id": "P7112",
+                "title": "card_fraud",
+                "description": "Exploiting stolen payment card data"
+              },
+              {
+                "id": "P7113",
+                "title": "crypto_transactions",
+                "description": "Moving stolen funds through cryptocurrency"
+              }
+            ]
+          },
+          {
+            "id": "TQ7200",
+            "title": "data_extraction",
+            "description": "Stealing valuable information",
+            "items": [
+              {
+                "id": "P7211",
+                "title": "credentials",
+                "description": "Harvesting account login details"
+              },
+              {
+                "id": "P7212",
+                "title": "sensitive_data",
+                "description": "Stealing confidential information"
+              },
+              {
+                "id": "P7213",
+                "title": "intellectual_property",
+                "description": "Extracting valuable business secrets"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T8000",
+        "title": "impacts",
+        "description": "Causing various types of damage through fraud",
+        "items": [
+          {
+            "id": "TQ8100",
+            "title": "direct_impacts",
+            "description": "Inflicting immediate damage",
+            "items": [
+              {
+                "id": "P8111",
+                "title": "monetary_loss",
+                "description": "Stealing funds directly from victims"
+              },
+              {
+                "id": "P8112",
+                "title": "data_compromise",
+                "description": "Exposing sensitive information"
+              },
+              {
+                "id": "P8113",
+                "title": "operational_disruption",
+                "description": "Disrupting business operations"
+              }
+            ]
+          },
+          {
+            "id": "TQ8200",
+            "title": "indirect_impacts",
+            "description": "Causing secondary damage",
+            "items": [
+              {
+                "id": "P8211",
+                "title": "reputational_damage",
+                "description": "Destroying brand trust and reputation"
+              },
+              {
+                "id": "P8212",
+                "title": "regulatory_consequences",
+                "description": "Triggering regulatory investigations and penalties"
+              },
+              {
+                "id": "P8213",
+                "title": "psychological_impact",
+                "description": "Inflicting emotional and psychological harm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T9000",
+        "title": "affiliate_management",
+        "description": "Recruiting, motivating, and controlling an affiliate workforce to scale and operationalize fraudulent campaign",
+        "items": [
+          {
+            "id": "TQ9110",
+            "title": "worker_recruitment",
+            "description": "Sourcing and onboarding new accomplices to perform tasks such as spamming, laundering, or technical exploitation",
+            "items": [
+              {
+                "id": "P9111",
+                "title": "hacking_forum_ads",
+                "description": "Posting advertisements or partnership offers on underground forums and marketplaces to attract prospective affiliates"
+              }
+            ]
+          },
+          {
+            "id": "TQ9120",
+            "title": "profit_incentives",
+            "description": "Structuring payment schemes to retain affiliates and maximize campaign reach",
+            "items": [
+              {
+                "id": "P9121",
+                "title": "tiered_commission_payouts",
+                "description": "Offering escalating commission rates or bonuses based on the affiliate’s performance (e.g., number of installs or successful fraud transactions)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
